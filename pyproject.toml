@@ -1,0 +1,17 @@
+[project]
+name = "afterclass1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.ruff.lint]
+ignore = ["F401"]
+extend-select = ["F", "I", "N", "A"] 
